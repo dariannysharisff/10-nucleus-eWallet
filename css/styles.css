@@ -305,3 +305,31 @@ img {
     text-align: left;
   }
 }
+
+/* Testimoniales */
+
+.testimoniales {
+  background-color: var(--primario);
+  padding: 5rem 0;
+}
+
+.testimoniales__heading {
+  color: var(--blanco);
+}
+
+.testimoniales__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+@media (min-width: 768px) {
+  .testimoniales__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Bloque de testimonial */
+
+.testimonial {
+}
